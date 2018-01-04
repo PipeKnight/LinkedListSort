@@ -1,6 +1,5 @@
 #include <iostream>
 #include <memory>
-#include <cstdio>
 
 template <typename T>
 struct List {
@@ -73,7 +72,6 @@ List<T>* MergeSort(List<T>*& head, int cur_size) {
 
 int main()
 {
-    freopen("input.txt", "r", stdin);
     int n;
     std::cin >> n;
     int val;
